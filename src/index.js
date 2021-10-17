@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import "./styles/_navigation.scss"
+import "./styles/index.scss";
+
 
 
 ReactDOM.render(
