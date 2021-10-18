@@ -15,8 +15,8 @@ const Countries = () => {
     
     // NB child's components inherited from parent's component 
     return (
-      <div className="countries">
-        <ul className="countries-list"></ul>
+      <div className="data-container">
+        <ul className="countries-list">
         {data.map((country) => (
             // left country transfer to country's value right (props cards)
            <Cards key={country.name["common"]} country={country}/>
@@ -24,7 +24,7 @@ const Countries = () => {
            
 
         ))}
-
+        </ul>
       </div>
             
     );
